@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "nitro build",
+    "build": "nitro build --preset aws_lambda",
     "dev": "nitro dev",
     "prepare": "nitro prepare",
     "preview": "node .output/server/index.mjs"
