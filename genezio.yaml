@@ -1,14 +1,9 @@
-# The name of the project.
 name: nitro-starter
-region: us-east-1
-# The version of the Genezio YAML configuration to parse.
-yamlVersion: 2
 nitro:
-    # The path to the Nitro project.
-    path: .
-    # The package manager to use.
     packageManager: npm
-    # The scripts to run.
+    path: .
     scripts:
         deploy:
             - npm install
+region: us-east-1
+yamlVersion: 2
